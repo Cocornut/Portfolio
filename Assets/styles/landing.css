@@ -5,6 +5,10 @@
     font-family: cascadia;
     src: url("fonts/cascadia.ttf");
 }
+@font-face {
+  font-family: "library3am";
+  src: url("../fonts/Library3am-5V3Z.otf");
+}
 body
 {
     /* background-color: #1d2e1f;
@@ -22,10 +26,27 @@ body
     border: 0px solid rgb(255, 255, 0);
   }
 
+  
+
+.left-container {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 25%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: red;
+  border-style: solid;
+  border-radius: 55px;
+}
+
+
 #title
 {
     color: rgba(255, 255, 255, 255);
-    font-family: 'VT323', 'monospace'; /* font family */
+    font-family: 'library3am', 'monospace'; /* font family */
     font-size: 60pt; /* size of the font */
     margin: -25px auto; /* vertical margin from top, horizontal centering (using auto) */
     width: max-content; /* Takes up full width of screen */
